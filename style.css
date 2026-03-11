@@ -1,0 +1,38 @@
+/* Tipografía base */
+body {
+  font-family: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background-color: #f8f9fa;
+}
+
+/* Imagen de perfil */
+.profile-img {
+  width: 50%;
+  height: auto;
+}
+
+/* Columna derecha fondo blanco */
+.right-col {
+  background-color: rgb(255, 255, 255);
+}
+
+/* Ajuste de altura para barras de progreso (coincide con el diseño original) */
+.progress {
+  height: 8px;
+}
+
+/* Pequeños ajustes visuales adicionales */
+h4, h5 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.table-responsive .table th,
+.table-responsive .table td {
+  vertical-align: middle;
+}
+
+/* Evitar que las tarjetas y secciones se peguen demasiado al borde en pantallas pequeñas */
+@media (max-width: 767.98px) {
+  .profile-img {
+    width: 40%;
+  }
+}
